@@ -1,0 +1,526 @@
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url('./fonts/NeueMachina-Light.ttf') format('truetype'); 
+  font-weight: 300; 
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url('./fonts/NeueMachina-Regular.ttf') format('truetype'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url('./fonts/NeueMachina-Medium.ttf') format('truetype'); 
+  font-weight: 500; 
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url('./fonts/NeueMachina-Bold.ttf') format('truetype'); 
+  font-weight: 600; 
+  font-style: normal; 
+}
+
+:root {
+  --main-color: #07080A;
+  --main2-color: #ffffff;
+  --back1-color: #FFC01E;
+  --back2-color: #7331FF;
+}
+
+.body {
+  margin: 0 auto;
+}
+
+.all_content_container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+dt::after {
+  content: ':';
+}
+
+hr {
+  border: none;
+  background-color: #000000;
+  height: 1px;
+}
+
+.navigation {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 600; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main2-color);
+}
+
+.spisok {
+  padding: 37px 16% ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header {
+  background-color:var(--main-color);
+}
+
+.wrap {
+  padding: 68px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h1 {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 600; 
+  font-style: normal; 
+  font-size: 65px;
+  color: var(--main-color);
+}
+
+.job {
+  background-color:var(--back2-color);
+  color: var(--main2-color);
+  padding: 15px 38px;
+  border-radius: 50px;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.age_text {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 25px;
+  color: var(--main-color);
+  margin-left: 10px;
+}
+
+.list_key {
+  display: flex;
+  margin-top: 33px;
+}
+
+.wrapper {
+  padding: 10px 80px;
+}
+
+.wrap-text-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type_h2 {
+  color: var(--main-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 35px;
+  margin-left: 217px;
+}
+
+.job_type2 {
+  background-color:var(--back1-color);
+  color: var(--main-color);
+  padding: 15px 38px;
+  border-radius: 50px;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 109px;
+}
+
+.type_text {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 30px;
+  margin-left: 109px;
+}
+
+.img_container {
+  margin-right: 109px;
+}
+
+.personal_h2 {
+  color: var(--main-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 35px;
+  margin-left: 36%;
+}
+
+.skill_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.skill_item {
+  background-color:var(--back1-color);
+  color: var(--main-color);
+  padding: 14px 49px;
+  border-radius: 50px;
+  border:  1px solid #000000;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-size: 22px;
+  margin: 0 30px 0 0;
+  text-align: center;
+}
+
+.skill_item:last-child {
+  margin-right: 0;
+}
+
+.skill_item_last {
+  background-color:var(--back1-color);
+  color: var(--main-color);
+  padding: 14px 49px;
+  border-radius: 50px;
+  border:  1px solid #000000;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.wrap_quality {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.gif_wrap {
+  z-index: 10;
+}
+
+.wrapper_personal_qual {
+  padding: 80px 80px;
+}
+
+.svg-violet {
+  position: absolute;
+  top: 1550px;
+  left: 125px;
+  z-index: -10;
+}
+
+.experience {
+  background-color: #282828;
+  padding: 100px 80px;
+}
+
+.hr_type2 {
+  border: none;
+  background-color: #ffffff;
+  height: 1px;
+}
+
+.quality_h2 {
+  color: var(--main2-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 35px;
+  margin-left: 40%;
+}
+
+.svg_1-2 {
+  margin: 25px 0 50px;
+  padding: 0 15%;
+  align-items: center;
+}
+
+.text_term  {
+  color: var(--main1-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 400; 
+  font-size: 25px;
+  text-align: center;
+  z-index: 2;
+}
+
+.experience_info {
+  margin: 68px 8% 0px;
+}
+
+.term_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.name_organization {
+  color: var(--main2-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 25px;
+  text-align: center;
+}
+
+.organization_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-title {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-size: 22px;
+  margin: 0 auto;
+  color: var(--main2-color);
+  text-align: center;
+}
+
+.svg-yellow1 {
+  position: absolute;
+  top: 2290px;
+  left: 200px;
+  z-index: 2;
+}
+
+.svg-yellow2 {
+  position: absolute;
+  top: 2275px;
+  left: 810px;
+  z-index: 2;
+}
+
+.wrap_n1 {
+  padding:100px 158px 25px 80px;
+}
+
+.illustr_man {
+  position: absolute;
+  top: 3100px;
+  left: 945px;
+}
+
+.first_company {
+  color: var(--main-color);
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-size: 35px;
+  margin-left: 95px;
+}
+
+.first_exp_text {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+
+.functions {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 27px;
+  color: var(--main-color);
+  margin-bottom: 40px;
+  margin-left: 119px;
+}
+
+.wrap_n2 {
+  padding:60px 287px 60px 80px;
+}
+
+.wrap_icon-text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  margin-right: 57px;
+  margin-top: 20px;
+}
+
+.workspace {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 27px;
+  color: var(--main-color);
+  margin:  20px 0 30px 0;
+  
+}
+
+.text_func {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+
+table {
+  margin : 75px auto 90px;
+  border: 1px solid #000000;
+  justify-items: center ;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 27px;
+  text-align: center;
+}
+
+th {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 27px;
+  color: var(--main-color);
+}
+
+.table_text {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 400; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main-color);
+}
+
+.table_year {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 35px;
+  color: var(--main-color);
+}
+
+.education {
+  padding: 0px 80px 0px;
+}
+
+.table_h2 {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 600; 
+  font-style: normal; 
+  font-size: 35px;
+  color: var(--main-color);
+  margin-left: 217px;
+}
+
+.skills_wrap {
+  padding: 100px 80px;
+  background-color: var(--back2-color);
+}
+
+.skill {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main-color);
+  padding: 15px 40px;
+  border-radius: 50px;
+  border:  1px solid #000000;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  background-color: #B998FF;
+  margin: 0;
+}
+
+.line {
+  margin-bottom: 60px;
+}
+
+
+.footer_wrapper {
+  padding: 30px 77px;
+  background-color: var(--main-color) ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_name {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 600;
+  font-size: 35px;
+  color: var(--main2-color);
+  margin: 0px auto  20px;
+  text-align: center;
+}
+
+.footer_text {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-size: 27px;
+  color: var(--main2-color);
+  text-align: center;
+}
+
+.footer_info {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-size: 18px;
+  color: var(--main2-color);
+  text-align: center;
+  margin: 0;
+}
+
+.block {
+  display: inline-block;
+}
+
+.footer_link {
+  font-family: 'NeueMachina', sans-serif; 
+  font-weight: 300; 
+  font-style: normal; 
+  font-size: 22px;
+  color: var(--main2-color);
+}
+
+.link {
+  text-decoration: underline;
+  margin-top: 12px;
+}
+
+.mail_tel {
+  margin-top: 85px;
+}
+
+.tel_wrap {
+  padding: 0 0 15px 77px;
+}
